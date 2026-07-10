@@ -1,0 +1,30 @@
+:root{
+  --primary:#C7A46C;
+  --background:#F8F6F3;
+  --white:#ffffff;
+  --text:#2B2B2B;
+  --light:#EFE8E1;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:var(--background);
+    color:var(--text);
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
